@@ -1,0 +1,15 @@
+pxt:
+npm install --global --production windows-build-tools --vs2015 (maybe 2017)
+npm install -g pxt
+npm install gulp
+npm run build
+npm install
+
+pxt-common:
+npm install gulp
+npm install
+
+pxt-micro:
+npm install gulp
+npm install
+

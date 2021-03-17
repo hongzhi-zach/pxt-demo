@@ -1,0 +1,39 @@
+{
+  "name": "pxt-common-packages",
+  "version": "7.0.5",
+  "description": "Microsoft MakeCode (PXT) common packages",
+  "keywords": [
+    "MakeCode",
+    "PXT",
+    "Adafruit",
+    "SparkFun",
+    "Maker"
+  ],
+  "author": "Microsoft Corporation",
+  "repository": {
+    "url": "ssh://git@github.com:Microsoft/pxt-common-packages.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/microsoft/pxt-common-packages",
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "built/common-sim.js",
+    "built/common-sim.d.ts",
+    "libs/**/*"
+  ],
+  "dependencies": {
+    "@jacdac/jacdac-ts": "^0.0.9",
+    "gulp": "^4.0.2",
+    "pxt-core": "^5.37.15"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5",
+    "@types/bluebird": "2.0.33"
+  },
+  "targetDependencies": {},
+  "extraIncludes": [
+    "inc"
+  ]
+}
